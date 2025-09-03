@@ -54,13 +54,13 @@ const RatingSection: React.FC = () => {
       <div className="container-xl">
         <div className="section_heading">
           <div>
-            <div className="heading_2 wow animate__animated animate__fadeInUp">
+            <div className="heading_2  animate__animated animate__fadeInUp">
               Best Architect with <br />
               knowledge
             </div>
           </div>
           <div>
-            <p className="wow animate__animated animate__fadeInUp">
+            <p className=" animate__animated animate__fadeInUp">
               Welcome to a world where spaces transform into
               works of art. Our architects bring a touch of
               brilliance to every project
@@ -82,13 +82,13 @@ const RatingSection: React.FC = () => {
         </div>
 
         <div className="row g-5">
-          <div className="col-md-4 image-card wow animate__animated animate__fadeInLeft">
+          <div className="col-md-4 image-card  animate__animated animate__fadeInLeft">
             <img src={Architecture1} alt="Architecture 1" />
           </div>
-          <div className="col-md-4 image-card wow animate__animated animate__fadeInUp">
+          <div className="col-md-4 image-card  animate__animated animate__fadeInUp">
             <img src={Architecture2} alt="Architecture 2" />
           </div>
-          <div className="col-md-4 image-card wow animate__animated animate__fadeInRight">
+          <div className="col-md-4 image-card  animate__animated animate__fadeInRight">
             <img src={Architecture3} alt="Architecture 3" />
           </div>
         </div>

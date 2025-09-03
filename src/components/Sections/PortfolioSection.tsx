@@ -24,18 +24,18 @@ const PortfolioSection: React.FC = () => {
         <section className="portfolio" id="portfolio">
             <div className="container-xl">
                 <div className="section_heading">
-                    <div className="heading_2 wow animate__animated animate__fadeInUp">
+                    <div className="heading_2  animate__animated animate__fadeInUp">
                         Explore designs that redefine <br />
                         conventional spaces.
                     </div>
-                    <p className="wow animate__animated animate__fadeInUp">
+                    <p className=" animate__animated animate__fadeInUp">
                         Embark on a journey of collaboration, where your dreams become architectural masterpieces.
                     </p>
                 </div>
 
                 <div className="showcases">
                     {showcases.map((showcase) => (
-                        <div key={showcase.id} className="showcase wow animate__animated animate__fadeInUp">
+                        <div key={showcase.id} className="showcase  animate__animated animate__fadeInUp">
                             <div className="row">
                                 {showcase.alignment === 'left' ? (
                                     <>

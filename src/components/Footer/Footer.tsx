@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import logo from '../../assets/images/logo.png';
 const Footer: React.FC = () => {
     const [email, setEmail] = useState('');
 
@@ -15,10 +15,10 @@ const Footer: React.FC = () => {
             <div className="container-xl">
                 <div className="footer">
                     <div>
-                        <a href="/" className="logo wow animate__animated animate__fadeInUp">
-                            <img src="/images/logo.png" alt="Visionary Architects" />
+                        <a href="/" className="logo  animate__animated animate__fadeInUp">
+                            <img src={logo} alt="Visionary Architects" />
                         </a>
-                        <div className="wow animate__animated animate__fadeInUp">
+                        <div className=" animate__animated animate__fadeInUp">
                             <p>Follow Us</p>
                             <span>
                                 <a href="#facebook">.facebook</a>
@@ -29,12 +29,12 @@ const Footer: React.FC = () => {
                     </div>
 
                     <div>
-                        <div className="heading_3 wow animate__animated animate__fadeInUp">
+                        <div className="heading_3  animate__animated animate__fadeInUp">
                             Enter Your Email To <br />
                             Get The Latest News
                         </div>
                         <form
-                            className="input_container wow animate__animated animate__fadeInUp"
+                            className="input_container  animate__animated animate__fadeInUp"
                             onSubmit={handleSubmit}
                         >
                             <input

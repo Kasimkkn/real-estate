@@ -43,7 +43,7 @@ const AboutSection: React.FC = () => {
             <div className="container-xl">
                 <div className="section_heading">
                     <div>
-                        <p className="wow animate__animated animate__fadeInUp">
+                        <p className=" animate__animated animate__fadeInUp">
                             Our architects blend creativity and functionality to
                             redefine the way you experience your
                             surroundings.
@@ -51,7 +51,7 @@ const AboutSection: React.FC = () => {
                         <a href="#more" className="btn_2">View More</a>
                     </div>
                     <div>
-                        <div className="heading_2 wow animate__animated animate__fadeInUp">
+                        <div className="heading_2  animate__animated animate__fadeInUp">
                             Best Architect with <br />
                             knowledge
                         </div>
@@ -61,7 +61,7 @@ const AboutSection: React.FC = () => {
                     {cards.map((card, index) => (
                         <div key={card.id} className="col-md-4">
                             <div
-                                className={`card ${card.isSpecial ? 'card_bg' : ''} wow animate__animated animate__fadeInUp`}
+                                className={`card ${card.isSpecial ? 'card_bg' : ''}  animate__animated animate__fadeInUp`}
                                 style={{ animationDelay: `${index}s` }}
                             >
                                 <div className="card_header">

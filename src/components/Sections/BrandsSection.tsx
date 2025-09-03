@@ -31,7 +31,7 @@ const BrandsSection: React.FC = () => {
             <div className="container-xl">
                 <div className="section_heading">
                     <div>
-                        <p className="wow animate__animated animate__fadeInUp">
+                        <p className=" animate__animated animate__fadeInUp">
                             Welcome to a world where spaces transform into
                             works of art. Our architects bring a touch of
                             brilliance to every project
@@ -39,7 +39,7 @@ const BrandsSection: React.FC = () => {
                         <a href="#more" className="btn_2">View More</a>
                     </div>
                     <div>
-                        <div className="heading_2 wow animate__animated animate__fadeInUp">
+                        <div className="heading_2  animate__animated animate__fadeInUp">
                             Our Architect with <br />
                             Known Company
                         </div>
@@ -51,7 +51,7 @@ const BrandsSection: React.FC = () => {
                 {brands.map((brand, index) => (
                     <div key={brand.id} className="col-md-3 col-sm-6 brand-holder">
                         <div
-                            className="brand-image wow animate__animated animate__fadeInUp"
+                            className="brand-image  animate__animated animate__fadeInUp"
                             style={{ animationDelay: `${(index % 4)}s` }}
                         >
                             <img src={brand.image} alt={brand.name} />
